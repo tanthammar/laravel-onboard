@@ -7,7 +7,7 @@ use Illuminate\Support\Collection;
 
 class OnboardingManager
 {
-    protected Collection $steps;
+    public Collection $steps;
 
     public function __construct(Model $user, OnboardingSteps $onboardingSteps)
     {
